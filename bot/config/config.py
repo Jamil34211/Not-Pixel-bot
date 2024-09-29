@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     API_ID: int
     API_HASH: str
 
-    SLEEP_TIME: list[int] = [3200, 3600]
+    SLEEP_TIME: list[int] = [320, 360]
     START_DELAY: list[int] = [5, 20]
     AUTO_PAINT: bool = True
     AUTO_MINING: bool = True
